@@ -1,0 +1,39 @@
+.moving {
+    background-color: rgba(36, 37, 44, 0.89);
+    color: white;
+    height: 50px;
+}
+
+.menu_bars {
+    background-color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+}
+
+.butons {
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    background: rgba(19, 17, 17, 0.781);
+    padding: 5px 75px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin: 2px;
+}
+
+.butons:hover {
+    background: #434343;
+    color: white;
+    letter-spacing: 5px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}

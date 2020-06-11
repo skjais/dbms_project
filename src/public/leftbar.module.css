@@ -1,0 +1,11 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    list-style: cross-fade(60);
+}
+
+.list li {
+    grid-column: 2/3;
+    color: rgb(41, 41, 143);
+    margin-top: 15px;
+}

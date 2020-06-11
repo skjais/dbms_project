@@ -1,0 +1,25 @@
+.loginsection {
+    background-color: rgba(20, 0, 0, 0.57);
+    height: 55px;
+}
+
+.loginsection button {
+    background-color: rgba(26, 27, 32, 0.89);
+    height: 50px;
+    color: white;
+    padding: 5px 50px;
+    float: right;
+    transition: all 0.4s ease 0s;
+    margin: 2px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.loginsection button:hover {
+    background: #434343;
+    letter-spacing: 5px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
